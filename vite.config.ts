@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
-  base: '/cel3ntano.github.io/',
+  base: '/andrii-zhygalko.github.io/',
   assetsInclude: ['**/*.pdf'],
   optimizeDeps: {
     include: ['pdfjs-dist'],
