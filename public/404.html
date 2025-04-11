@@ -9,7 +9,7 @@
         const origin =
           l.origin ||
           `${l.protocol}//${l.hostname}${l.port ? ':' + l.port : ''}`;
-        const repoName = 'cel3ntano.github.io';
+        const repoName = 'andrii-zhygalko.github.io';
         sessionStorage.setItem('redirectUrl', l.href);
         window.location.replace(`${origin}/${repoName}${l.search}${l.hash}`);
       })();

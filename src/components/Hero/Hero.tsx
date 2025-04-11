@@ -14,7 +14,11 @@ interface SocialLink {
 }
 
 const socialLinks: SocialLink[] = [
-  { href: 'https://github.com/cel3ntano/', icon: githubIcon, alt: 'GitHub' },
+  {
+    href: 'https://github.com/andrii-zhygalko/',
+    icon: githubIcon,
+    alt: 'GitHub',
+  },
   {
     href: 'https://www.linkedin.com/in/andrii-zhygalko',
     icon: linkedin,
