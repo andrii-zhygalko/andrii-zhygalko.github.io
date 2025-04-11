@@ -25,7 +25,7 @@ const socialMediaLinks: readonly SocialMediaLink[] = [
     ariaLabel: 'Visit my LinkedIn profile',
   },
   {
-    href: 'https://github.com/cel3ntano/',
+    href: 'https://github.com/andrii-zhygalko/',
     icon: githubIcon,
     alt: 'GitHub',
     ariaLabel: 'Visit my GitHub profile',

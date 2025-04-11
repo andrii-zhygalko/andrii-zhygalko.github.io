@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
-  base: '/cel3ntano.github.io/',
+  // The one, correct base path
+  base: '/',
   assetsInclude: ['**/*.pdf'],
   optimizeDeps: {
     include: ['pdfjs-dist'],
@@ -20,7 +21,6 @@ export default defineConfig({
       },
     },
   },
-  base: '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
