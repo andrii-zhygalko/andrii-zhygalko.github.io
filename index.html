@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/dev.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Andrii Zhygalko</title>
+    <script type="module" crossorigin src="/assets/index-BBUkpc0w.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-B2Wt-wJ2.js">
+    <link rel="stylesheet" crossorigin href="/assets/vendor-D2fNlp0u.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-C7BwWEqB.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function () {
+        const redirectUrl = sessionStorage.getItem('redirectUrl');
+        if (redirectUrl) {
+          sessionStorage.removeItem('redirectUrl');
+          const url = new URL(redirectUrl);
+          window.history.replaceState(
+            null,
+            '',
+            url.pathname + url.search + url.hash
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>
